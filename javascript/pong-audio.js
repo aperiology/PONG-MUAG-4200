@@ -49,10 +49,10 @@ soundArray.push(wallSound); //add sound to list of sounds
 export var paddleSound = new soundFile("silence.mp3");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("beethovenstrq.mp3");
+export var scoreSound = new soundFile("silence.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("brown.mp3");
+export var ambientSound = new soundFile("beethovenstrq.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
@@ -62,7 +62,7 @@ soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -16;
 
-export var villageMusic = new soundFile("silence.mp3");
+export var villageMusic = new soundFile("beethovenstrq.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
 villageMusic.player.volume.value = -16;
